@@ -221,6 +221,13 @@
     .filter-btn[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: white; }
     .category-badge { display: inline-flex; width: max-content; margin: 0 0 .6rem; padding: .3rem .55rem; background: var(--bg); border: 1px solid var(--line); border-radius: 999px; font-size: .75rem; font-weight: 800; color: var(--accent); }
     .article-hidden { display: none !important; }
+    .facts-page-hidden { display: none !important; }
+    .facts-pagination { display: flex; flex-wrap: wrap; gap: .5rem; align-items: center; justify-content: center; margin: 2.5rem 0 .5rem; }
+    .facts-pagination[hidden] { display: none; }
+    .facts-page-status { flex-basis: 100%; text-align: center; color: var(--muted); font-size: .92rem; margin: 0 0 .15rem; }
+    .facts-page-btn { min-height: 42px; min-width: 42px; border: 1px solid var(--line); border-radius: 5px; background: var(--paper); color: var(--ink); padding: .55rem .8rem; font: inherit; font-weight: 750; cursor: pointer; }
+    .facts-page-btn.is-current { background: var(--accent); border-color: var(--accent); color: white; }
+    .facts-page-btn:disabled { opacity: .45; cursor: default; }
     .search-empty { display: none; padding: 1.4rem; margin: 1rem 0; border: 1px solid var(--line); color: var(--muted); }
     .search-empty.visible { display: block; }
     .video-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; }
@@ -376,6 +383,16 @@
     .read-next-card img, .read-next-thumb { width: 64px; height: 64px; object-fit: cover; }
     .read-next-thumb { display: grid; place-items: center; background: var(--dark-soft); color: #ffd27a; font-family: Georgia, serif; font-size: 1.5rem; }
     .read-next-card strong { font-size: .83rem; line-height: 1.22; }
+    .story-nav { display: grid; grid-template-columns: 1fr 1fr; gap: .65rem; margin-top: 1.8rem; }
+    .story-nav-card { display: grid; grid-template-columns: 84px minmax(0, 1fr); align-items: center; gap: .85rem; min-height: 104px; padding: .7rem; background: var(--bg); border: 1px solid var(--line); text-decoration: none; transition: transform .22s ease, box-shadow .22s ease; }
+    .story-nav-card--prev { grid-column: 1; }
+    .story-nav-card--next { grid-column: 2; grid-template-columns: minmax(0, 1fr) 84px; text-align: right; }
+    .story-nav-card:hover, .story-nav-card:focus-visible { transform: translateY(-2px); box-shadow: var(--shadow-raised), inset 0 3px 0 var(--gold); }
+    .story-nav-card:focus-visible { outline: 3px solid var(--gold); outline-offset: 2px; }
+    .story-nav-card img, .story-nav-thumb { width: 84px; height: 84px; object-fit: cover; }
+    .story-nav-thumb { display: grid; place-items: center; background: var(--dark-soft); color: #ffd27a; font-family: Georgia, serif; font-size: 1.9rem; }
+    .story-nav-label { display: block; margin-bottom: .3rem; color: var(--accent); font-size: .72rem; font-weight: 800; letter-spacing: .09em; text-transform: uppercase; }
+    .story-nav-card strong { display: block; font-family: Georgia, "Times New Roman", serif; font-size: 1rem; line-height: 1.28; }
     .collections-grid { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: .8rem; }
     .collection-card { padding: 1.2rem; background: var(--paper); border-top: 4px solid var(--accent); box-shadow: var(--shadow); }
     .collection-card h3 { margin: 0 0 .45rem; font-size: 1.25rem; }
@@ -478,6 +495,8 @@
       .video-grid { grid-template-columns: 1fr; }
       .trending-grid, .collections-grid, .infographic-grid { grid-template-columns: 1fr; }
       .read-next-grid { grid-template-columns: 1fr; }
+      .story-nav { grid-template-columns: 1fr; }
+      .story-nav-card--prev, .story-nav-card--next { grid-column: auto; }
       .fact-card { grid-template-columns: 1fr; }
       .fact-animal { min-height: 88px; }
       .age-grid { grid-template-columns: 1fr 1fr; }
@@ -491,7 +510,7 @@
     }
     @media (prefers-reduced-motion: reduce) {
       html { scroll-behavior: auto; }
-      .story-image img, .story, .daily-card, .collection-card, .infographic-card, .next-card, .read-next-card, .menu-icon::before, .menu-icon::after, .menu-icon span { transition: none; }
+      .story-image img, .story, .daily-card, .collection-card, .infographic-card, .next-card, .read-next-card, .story-nav-card, .menu-icon::before, .menu-icon::after, .menu-icon span { transition: none; }
     }
   </style>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Strange Tale About Animals","description":"Animal stories and facts inspired by Hayat al-Hayawan al-Kubra.","hasPart":[{"@type":"Article","headline":"The Crow’s One Job—and the Feast That Ruined It 🐦‍⬛"},{"@type":"Article","headline":"The Fox Came Back for Seconds 🦊🍗"},{"@type":"Article","headline":"A Wolf Starts This 700-Year-Old Chain. A Fly Ends It. ⛓️🐺"},{"@type":"Article","headline":"The Sneeze That Put a Cat on Noah’s Ark 🦁🐱"},{"@type":"Article","headline":"A Lion With 630 Names—and One Impossible Sneeze 🦁"},{"@type":"Article","headline":"The Camel With a Red Balloon in Its Mouth 🐫"},{"@type":"Article","headline":"So What Did the Ababil Actually Look Like? 🐦"},{"@type":"Article","headline":"Can a She-Donkey Knock Pride Out of a Person? 🫏"},{"@type":"Article","headline":"One Arabic Word, Two Very Different Animals 🐦🫏"},{"@type":"Article","headline":"The Tiny Green Fly Al-Damiri Refused to Forget 🪰"},{"@type":"Article","headline":"A Green Bird, a Bad Omen, and a Grammar Fight 🐦"},{"@type":"Article","headline":"The Snakebite Even a Charmer Couldn’t Treat 🐍"},{"@type":"Article","headline":"Three Dictionaries Couldn’t Agree on This Wild Cow 🐂"},{"@type":"Article","headline":"Half a Lentil, Yet Big Enough to Change History 🪵"},{"@type":"Article","headline":"Leave This Snake, You Lose. Kill It, You Lose. 🐍"},{"@type":"Article","headline":"The Rabbit That Frightened Jinn—and Questioned a Judge 🐇"},{"@type":"Article","headline":"The Ibex That Nursed Jonah Back to Strength 🏔️"},{"@type":"Article","headline":"The Caterpillar That Started a Grammar Debate 🦋"},{"@type":"Article","headline":"The Man Who Entered Paradise Without Praying a Single Prayer"},{"@type":"Article","headline":"The One-Legged Snake That Kills With a Look"},{"@type":"Article","headline":"The Dusty-Black Wolf That Proved a Grammar Point 🐺"},{"@type":"Article","headline":"The Animal That Was Four Animals at Once 🐢"},{"@type":"Article","headline":"Al-Ataysh: The 'Bird' Whose Entry Is Really a Biography 🐦"},{"@type":"Article","headline":"Al-Aghthar: The Water Bird Described in a Single Sentence 🦆"},{"@type":"Article","headline":"Al-Afal: The Young Camels Whose Entry Drowned in a Hundred Pages of Sermons 🐫"},{"@type":"Article","headline":"Goose Facts: The Feather on the Thief's Head and the Cry That Warned a Caliph 🪿"},{"@type":"Article","headline":"Al-Ilfah: The Word for 'Companionship' That Named a Ghoul 🌙"},{"@type":"Article","headline":"Al-Ilq: The Wolf With Three Names — and the Monkey That Borrowed One 🐺"},{"@type":"Article","headline":"Al-Awda: The Jerboa Whose Whole Entry Is One Line — and a Promise at the Back of the Book 🐹"},{"@type":"Article","headline":"Al-Awraq: The Gray Camel With the Tastiest Meat — and the Worst Job Reviews 🐪"}]}</script>
@@ -4080,6 +4099,19 @@
         };
       });
 
+      var factsOrder = articleIndex.filter(function (entry) { return entry.type === 'Animal Facts'; });
+      function storyNavCard(entry, kind) {
+        var seo = articleSeoById[entry.id];
+        var card = document.createElement('a');
+        card.className = 'story-nav-card story-nav-card--' + kind;
+        card.href = seo && seo.slug ? '?article=' + encodeURIComponent(seo.slug) : entry.href;
+        var label = kind === 'prev' ? '← Previous Story' : 'Next Story →';
+        var media = entry.image ? '<img src="' + entry.image + '" loading="lazy" alt="" />' : '<span class="story-nav-thumb" aria-hidden="true">' + entry.title.charAt(0) + '</span>';
+        var text = '<span class="story-nav-text"><span class="story-nav-label">' + label + '</span><strong>' + entry.title + '</strong></span>';
+        card.innerHTML = kind === 'prev' ? media + text : text + media;
+        return card;
+      }
+
       articleIndex.forEach(function (item, index) {
         var article = item.node;
         var copy = article.querySelector('.article-copy');
@@ -4156,6 +4188,16 @@
         });
         next.appendChild(grid);
         extras.appendChild(next);
+
+        var factsPos = factsOrder.indexOf(item);
+        if (factsPos !== -1 && factsOrder.length > 1) {
+          var storyNav = document.createElement('nav');
+          storyNav.className = 'story-nav';
+          storyNav.setAttribute('aria-label', 'Previous and next stories in book order');
+          if (factsPos > 0) storyNav.appendChild(storyNavCard(factsOrder[factsPos - 1], 'prev'));
+          if (factsPos < factsOrder.length - 1) storyNav.appendChild(storyNavCard(factsOrder[factsPos + 1], 'next'));
+          extras.appendChild(storyNav);
+        }
         copy.appendChild(extras);
       });
 
@@ -4218,26 +4260,115 @@
       var articles = Array.prototype.slice.call(document.querySelectorAll('.searchable-article'));
       var empty = document.getElementById('search-empty');
       var activeFilter = 'all';
+
+      var FACTS_PER_PAGE = 12;
+      var factsArticles = articleIndex.filter(function (item) { return item.type === 'Animal Facts'; }).map(function (item) { return item.node; });
+      var factsPage = 1;
+      var factsPagination = document.createElement('nav');
+      factsPagination.className = 'facts-pagination';
+      factsPagination.setAttribute('aria-label', 'Animal Facts pages');
+      if (factsArticles.length) factsArticles[factsArticles.length - 1].insertAdjacentElement('afterend', factsPagination);
+
+      function renderFactsPagination(totalPages, totalFacts) {
+        factsPagination.innerHTML = '';
+        if (totalPages < 2) { factsPagination.hidden = true; return; }
+        factsPagination.hidden = false;
+        var status = document.createElement('p');
+        status.className = 'facts-page-status';
+        status.setAttribute('role', 'status');
+        status.textContent = 'Page ' + factsPage + ' of ' + totalPages + ' · ' + totalFacts + ' animal facts';
+        factsPagination.appendChild(status);
+        function addButton(label, page, options) {
+          var button = document.createElement('button');
+          button.type = 'button';
+          button.className = 'facts-page-btn' + (options && options.current ? ' is-current' : '');
+          button.textContent = label;
+          if (options && options.current) button.setAttribute('aria-current', 'page');
+          if (options && options.disabled) button.disabled = true;
+          button.addEventListener('click', function () {
+            factsPage = page;
+            applyFilters();
+            document.getElementById('animal-facts-title').scrollIntoView({ block: 'start' });
+          });
+          factsPagination.appendChild(button);
+        }
+        addButton('Previous', factsPage - 1, { disabled: factsPage <= 1 });
+        for (var p = 1; p <= totalPages; p += 1) addButton(String(p), p, { current: p === factsPage });
+        addButton('Next', factsPage + 1, { disabled: factsPage >= totalPages });
+      }
+
       function applyFilters() {
         var query = search.value.trim().toLowerCase();
         var shown = 0;
+        var matchingFacts = [];
         articles.forEach(function (article) {
           var categoryMatch = activeFilter === 'all' || article.dataset.category === activeFilter;
           var searchMatch = !query || article.textContent.toLowerCase().indexOf(query) !== -1;
           var visible = categoryMatch && searchMatch;
           article.classList.toggle('article-hidden', !visible);
-          if (visible) shown += 1;
+          if (visible) {
+            shown += 1;
+            if (factsArticles.indexOf(article) !== -1) matchingFacts.push(article);
+          }
         });
+        var totalPages = Math.max(1, Math.ceil(matchingFacts.length / FACTS_PER_PAGE));
+        if (factsPage > totalPages) factsPage = totalPages;
+        if (factsPage < 1) factsPage = 1;
+        var firstOnPage = (factsPage - 1) * FACTS_PER_PAGE;
+        var pageFacts = matchingFacts.slice(firstOnPage, firstOnPage + FACTS_PER_PAGE);
+        factsArticles.forEach(function (article) {
+          article.classList.toggle('facts-page-hidden', pageFacts.indexOf(article) === -1);
+        });
+        renderFactsPagination(totalPages, matchingFacts.length);
         empty.classList.toggle('visible', shown === 0);
       }
-      search.addEventListener('input', applyFilters);
+      search.addEventListener('input', function () { factsPage = 1; applyFilters(); });
       filterButtons.forEach(function (button) {
         button.addEventListener('click', function () {
           activeFilter = button.dataset.filter;
+          factsPage = 1;
           filterButtons.forEach(function (item) { item.setAttribute('aria-pressed', item === button ? 'true' : 'false'); });
           applyFilters();
         });
       });
+
+      function revealFactsArticle(article) {
+        if (!article || factsArticles.indexOf(article) === -1) return;
+        if (search.value) search.value = '';
+        if (activeFilter !== 'all') {
+          activeFilter = 'all';
+          filterButtons.forEach(function (item) { item.setAttribute('aria-pressed', item.dataset.filter === 'all' ? 'true' : 'false'); });
+        }
+        factsPage = Math.floor(factsArticles.indexOf(article) / FACTS_PER_PAGE) + 1;
+        applyFilters();
+      }
+      function factsArticleFromHash() {
+        var id = window.location.hash.slice(1);
+        if (!id) return null;
+        var target = document.getElementById(id);
+        return target ? target.closest('.searchable-article') : null;
+      }
+      window.addEventListener('hashchange', function () {
+        var article = factsArticleFromHash();
+        if (!article || factsArticles.indexOf(article) === -1) return;
+        if (!article.classList.contains('article-hidden') && !article.classList.contains('facts-page-hidden')) return;
+        revealFactsArticle(article);
+        var target = document.getElementById(window.location.hash.slice(1));
+        if (target) window.requestAnimationFrame(function () { target.scrollIntoView({ block: 'start' }); });
+      });
+      var initialFactsArticle = factsArticleFromHash();
+      if (initialFactsArticle && factsArticles.indexOf(initialFactsArticle) !== -1) {
+        revealFactsArticle(initialFactsArticle);
+      } else {
+        var requestedId = selectedArticleId();
+        var requestedHost = null;
+        if (requestedId) {
+          var requestedHeading = document.getElementById(requestedId);
+          requestedHost = requestedHeading ? requestedHeading.closest('.searchable-article') : null;
+        }
+        if (requestedHost && factsArticles.indexOf(requestedHost) !== -1) revealFactsArticle(requestedHost);
+        else applyFilters();
+      }
 
       var weirdFacts = [
         {name:'Lion', emoji:'🦁', text:'Al-Damiri opens the book with the lion because it was considered the noblest of wild animals.'},
