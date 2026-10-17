@@ -393,6 +393,18 @@
     .story-nav-thumb { display: grid; place-items: center; background: var(--dark-soft); color: #ffd27a; font-family: Georgia, serif; font-size: 1.9rem; }
     .story-nav-label { display: block; margin-bottom: .3rem; color: var(--accent); font-size: .72rem; font-weight: 800; letter-spacing: .09em; text-transform: uppercase; }
     .story-nav-card strong { display: block; font-family: Georgia, "Times New Roman", serif; font-size: 1rem; line-height: 1.28; }
+    .share-widget { position: relative; margin: -.35rem 0 1.5rem; max-width: 720px; }
+    .share-widget--end { margin: 1.8rem 0 0; padding-top: 1.4rem; border-top: 1px solid var(--line); }
+    .share-btn { display: inline-flex; align-items: center; gap: .55rem; min-height: 44px; padding: .65rem 1.15rem; background: var(--gold); color: #211508; border: 1px solid transparent; border-radius: 8px; font: inherit; font-size: .95rem; font-weight: 800; cursor: pointer; box-shadow: var(--shadow); }
+    .share-btn:hover { background: #e8ad47; }
+    .share-btn:focus-visible { outline: 3px solid var(--gold); outline-offset: 2px; }
+    .share-btn svg { width: 18px; height: 18px; flex: none; }
+    .share-menu { display: flex; flex-wrap: wrap; gap: .55rem; margin-top: .65rem; }
+    .share-menu[hidden] { display: none; }
+    .share-option { display: inline-flex; align-items: center; justify-content: center; gap: .45rem; min-height: 44px; padding: .6rem 1rem; background: var(--paper); color: var(--ink); border: 1px solid var(--line); border-radius: 8px; font: inherit; font-size: .9rem; font-weight: 750; text-decoration: none; cursor: pointer; }
+    .share-option:hover { border-color: var(--gold); box-shadow: inset 0 3px 0 var(--gold); }
+    .share-option:focus-visible { outline: 3px solid var(--gold); outline-offset: 2px; }
+    .share-status { display: block; min-height: 1.3em; margin-top: .45rem; color: var(--accent); font-size: .86rem; font-weight: 750; }
     .collections-grid { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: .8rem; }
     .collection-card { padding: 1.2rem; background: var(--paper); border-top: 4px solid var(--accent); box-shadow: var(--shadow); }
     .collection-card h3 { margin: 0 0 .45rem; font-size: 1.25rem; }
@@ -4112,6 +4124,99 @@
         return card;
       }
 
+      var shareIconSvg = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>';
+      function articleShareUrl(item) {
+        var seo = articleSeoById[item.id];
+        if (seo && seo.slug) return 'https://sadiqcrazy11-ctrl.github.io/?article=' + encodeURIComponent(seo.slug);
+        return 'https://sadiqcrazy11-ctrl.github.io/#' + item.id;
+      }
+      function closeShareMenus(except) {
+        Array.prototype.forEach.call(document.querySelectorAll('.share-menu'), function (menu) {
+          if (menu !== except && !menu.hidden) {
+            menu.hidden = true;
+            var btn = menu.parentElement.querySelector('.share-btn');
+            if (btn) btn.setAttribute('aria-expanded', 'false');
+          }
+        });
+      }
+      document.addEventListener('click', function (event) {
+        if (!event.target.closest('.share-widget')) closeShareMenus(null);
+      });
+      document.addEventListener('keydown', function (event) {
+        if (event.key === 'Escape') closeShareMenus(null);
+      });
+      function createShareWidget(item, atEnd) {
+        var url = articleShareUrl(item);
+        var shareText = item.title + ' — Strange Tale About Animals';
+        var widget = document.createElement('div');
+        widget.className = 'share-widget' + (atEnd ? ' share-widget--end' : '');
+        var btn = document.createElement('button');
+        btn.type = 'button';
+        btn.className = 'share-btn';
+        btn.setAttribute('aria-haspopup', 'true');
+        btn.setAttribute('aria-expanded', 'false');
+        btn.innerHTML = shareIconSvg + '<span>Share this story</span>';
+        var menu = document.createElement('div');
+        menu.className = 'share-menu';
+        menu.hidden = true;
+        var status = document.createElement('span');
+        status.className = 'share-status';
+        status.setAttribute('role', 'status');
+        var copyBtn = document.createElement('button');
+        copyBtn.type = 'button';
+        copyBtn.className = 'share-option';
+        copyBtn.textContent = 'Copy link';
+        copyBtn.addEventListener('click', function () {
+          function copied() { status.textContent = 'Link copied — paste it anywhere to share.'; }
+          function fallbackCopy() {
+            var ta = document.createElement('textarea');
+            ta.value = url;
+            ta.setAttribute('readonly', '');
+            ta.style.position = 'absolute';
+            ta.style.left = '-9999px';
+            document.body.appendChild(ta);
+            ta.select();
+            try { document.execCommand('copy'); copied(); }
+            catch (error) { status.textContent = 'Copy this link: ' + url; }
+            document.body.removeChild(ta);
+          }
+          if (navigator.clipboard && navigator.clipboard.writeText) {
+            navigator.clipboard.writeText(url).then(copied, fallbackCopy);
+          } else {
+            fallbackCopy();
+          }
+        });
+        var whatsapp = document.createElement('a');
+        whatsapp.className = 'share-option';
+        whatsapp.href = 'https://wa.me/?text=' + encodeURIComponent(shareText + ' ' + url);
+        whatsapp.target = '_blank';
+        whatsapp.rel = 'noopener noreferrer';
+        whatsapp.textContent = 'WhatsApp';
+        var facebook = document.createElement('a');
+        facebook.className = 'share-option';
+        facebook.href = 'https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(url);
+        facebook.target = '_blank';
+        facebook.rel = 'noopener noreferrer';
+        facebook.textContent = 'Facebook';
+        menu.appendChild(copyBtn);
+        menu.appendChild(whatsapp);
+        menu.appendChild(facebook);
+        btn.addEventListener('click', function () {
+          if (navigator.share) {
+            navigator.share({ title: item.title, text: shareText, url: url }).catch(function () {});
+            return;
+          }
+          var willOpen = menu.hidden;
+          closeShareMenus(menu);
+          menu.hidden = !willOpen;
+          btn.setAttribute('aria-expanded', willOpen ? 'true' : 'false');
+        });
+        widget.appendChild(btn);
+        widget.appendChild(menu);
+        widget.appendChild(status);
+        return widget;
+      }
+
       articleIndex.forEach(function (item, index) {
         var article = item.node;
         var copy = article.querySelector('.article-copy');
@@ -4133,6 +4238,7 @@
         meta.className = 'article-meta';
         meta.innerHTML = '<span>By <strong>Sadiq Khan</strong></span><span aria-hidden="true">·</span><time datetime="' + publishedDate + '">Published ' + publishedLabel + '</time>';
         heading.insertAdjacentElement('afterend', meta);
+        meta.insertAdjacentElement('afterend', createShareWidget(item, false));
 
         var paragraphs = Array.prototype.slice.call(body.children).filter(function (el) { return el.tagName === 'P'; });
         if (item.type === 'Animal Facts') {
@@ -4188,6 +4294,8 @@
         });
         next.appendChild(grid);
         extras.appendChild(next);
+
+        extras.appendChild(createShareWidget(item, true));
 
         var factsPos = factsOrder.indexOf(item);
         if (factsPos !== -1 && factsOrder.length > 1) {
