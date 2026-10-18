@@ -1,0 +1,414 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="color-scheme" content="light dark" />
+  <meta name="theme-color" content="#17130f" />
+  <meta name="description" content="Which animal are you? Take the 10-question personality quiz from Strange Tale About Animals and meet your match from a 700-year-old book of animal lore." />
+  <link rel="icon" type="image/webp" href="assets/profile.webp" />
+  <link rel="canonical" href="https://sadiqcrazy11-ctrl.github.io/quiz.html" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Strange Tale About Animals" />
+  <meta property="og:title" content="Which Animal Are You? | Strange Tale About Animals" />
+  <meta property="og:description" content="10 quick questions. One animal match from a 700-year-old book. Take the quiz!" />
+  <meta property="og:image" content="https://sadiqcrazy11-ctrl.github.io/assets/fox-heist.webp" />
+  <meta property="og:url" content="https://sadiqcrazy11-ctrl.github.io/quiz.html" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Which Animal Are You? | Strange Tale About Animals" />
+  <meta name="twitter:description" content="10 quick questions. One animal match from a 700-year-old book." />
+  <meta name="twitter:image" content="https://sadiqcrazy11-ctrl.github.io/assets/fox-heist.webp" />
+  <title>Which Animal Are You? | Strange Tale About Animals</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f4efe5;
+      --paper: #fffaf0;
+      --ink: #1f1a15;
+      --muted: #635d54;
+      --line: #d8cdbd;
+      --accent: #b54421;
+      --accent-strong: #8f2e12;
+      --gold: #d89a2e;
+      --dark: #17130f;
+      --dark-soft: #262019;
+      --on-dark: #fff8e8;
+      --shadow: 0 16px 42px rgba(49, 34, 17, .11);
+      --shadow-raised: 0 22px 52px rgba(49, 34, 17, .18);
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #12100d;
+        --paper: #1c1814;
+        --ink: #f5ecdc;
+        --muted: #bbb1a1;
+        --line: #3b3228;
+        --accent: #ef7f4f;
+        --accent-strong: #ff9a6d;
+        --gold: #e8ad47;
+        --dark: #080706;
+        --dark-soft: #17130f;
+        --on-dark: #fff8e8;
+        --shadow: 0 16px 42px rgba(0, 0, 0, .3);
+        --shadow-raised: 0 24px 58px rgba(0, 0, 0, .48);
+      }
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.55;
+      overflow-x: hidden;
+    }
+    img { display: block; max-width: 100%; }
+    a { color: inherit; }
+    button { -webkit-tap-highlight-color: transparent; font: inherit; }
+    .wrap { width: min(860px, calc(100% - 40px)); margin-inline: auto; }
+
+    /* Header */
+    .site-header { background: var(--dark); color: var(--on-dark); padding: .9rem 0; position: sticky; top: 0; z-index: 50; }
+    .site-header .wrap { display: flex; align-items: center; gap: .9rem; }
+    .brand { display: flex; align-items: center; gap: .7rem; text-decoration: none; font-weight: 800; font-size: 1.05rem; }
+    .brand img { width: 40px; height: 40px; border-radius: 50%; object-fit: cover; }
+    .back-link { margin-left: auto; text-decoration: none; font-weight: 700; font-size: .92rem; border: 1px solid rgba(255,248,232,.35); padding: .45rem .9rem; border-radius: 999px; }
+    .back-link:hover { background: rgba(255,248,232,.12); }
+
+    /* Hero */
+    .hero { text-align: center; padding: clamp(2rem, 6vw, 3.5rem) 0 clamp(1.2rem, 4vw, 2rem); }
+    .kicker { color: var(--accent); font-weight: 800; letter-spacing: .14em; text-transform: uppercase; font-size: .78rem; }
+    .hero h1 { font-family: Georgia, "Times New Roman", serif; font-size: clamp(2rem, 6vw, 3.2rem); line-height: 1.12; margin: .7rem 0 .8rem; }
+    .hero p { color: var(--muted); max-width: 34rem; margin: 0 auto; font-size: 1.05rem; }
+
+    /* Quiz card */
+    .quiz-card {
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      box-shadow: var(--shadow);
+      padding: clamp(1.4rem, 4vw, 2.4rem);
+      margin-bottom: 2rem;
+    }
+    .quiz-top { display: flex; align-items: center; justify-content: space-between; gap: 1rem; margin-bottom: 1rem; }
+    .quiz-step { color: var(--accent); font-weight: 800; font-size: .85rem; letter-spacing: .06em; }
+    .progress-track { height: 8px; background: var(--line); border-radius: 999px; overflow: hidden; margin-bottom: 1.4rem; }
+    .progress-fill { display: block; height: 100%; width: 10%; background: linear-gradient(90deg, var(--accent), var(--gold)); border-radius: 999px; transition: width .35s ease; }
+    .quiz-question { font-family: Georgia, "Times New Roman", serif; font-size: clamp(1.35rem, 3.6vw, 1.9rem); margin: 0 0 1.3rem; line-height: 1.3; }
+    .quiz-options { display: grid; gap: .7rem; }
+    .quiz-option {
+      text-align: left; padding: .95rem 1.1rem;
+      border: 2px solid var(--line); background: var(--bg); color: var(--ink);
+      border-radius: 10px; font-weight: 700; cursor: pointer; font-size: 1.02rem;
+      transition: border-color .15s ease, transform .1s ease;
+    }
+    .quiz-option:hover, .quiz-option:focus-visible { border-color: var(--accent); outline: none; }
+    .quiz-option:active { transform: scale(.99); }
+
+    /* Result */
+    .result-hero-img { border-radius: 12px; overflow: hidden; margin-bottom: 1.4rem; box-shadow: var(--shadow); }
+    .result-hero-img img { width: 100%; max-height: 380px; object-fit: cover; }
+    .result-emoji { font-size: 3.4rem; line-height: 1; margin-bottom: .4rem; }
+    .result-name { font-family: Georgia, "Times New Roman", serif; font-size: clamp(1.8rem, 5vw, 2.6rem); margin: .3rem 0 .8rem; }
+    .result-desc { font-size: 1.08rem; margin: 0 0 1rem; }
+    .result-fact {
+      background: var(--bg); border-left: 4px solid var(--gold);
+      padding: .9rem 1.1rem; border-radius: 0 10px 10px 0; margin: 0 0 1.4rem; font-size: .98rem;
+    }
+    .result-fact strong { color: var(--accent); }
+    .result-actions { display: flex; flex-wrap: wrap; gap: .7rem; margin-bottom: 1.2rem; }
+    .btn {
+      display: inline-block; text-decoration: none; cursor: pointer;
+      padding: .8rem 1.4rem; border-radius: 999px; font-weight: 800; font-size: 1rem;
+      border: 2px solid transparent;
+    }
+    .btn-primary { background: var(--accent); color: #fff; border-color: var(--accent); }
+    .btn-primary:hover { background: var(--accent-strong); }
+    .btn-ghost { background: transparent; color: var(--ink); border-color: var(--line); }
+    .btn-ghost:hover { border-color: var(--accent); }
+    .share-row { display: flex; flex-wrap: wrap; gap: .6rem; align-items: center; margin-top: .4rem; }
+    .share-label { font-weight: 800; font-size: .9rem; color: var(--muted); margin-right: .2rem; }
+    .share-btn {
+      text-decoration: none; font-weight: 700; font-size: .9rem;
+      padding: .55rem 1rem; border-radius: 999px; border: 1px solid var(--line);
+      background: var(--bg); color: var(--ink);
+    }
+    .share-btn:hover { border-color: var(--accent); }
+
+    /* Start screen */
+    .start-emoji { font-size: 4rem; text-align: center; margin-bottom: .6rem; }
+    .start-screen { text-align: center; }
+    .start-screen p { color: var(--muted); max-width: 30rem; margin: 0 auto 1.4rem; }
+
+    /* Footer note */
+    .site-footer { text-align: center; padding: 2rem 0 3rem; color: var(--muted); font-size: .9rem; }
+    .site-footer a { color: var(--accent); font-weight: 700; }
+
+    @media (max-width: 560px) {
+      .quiz-option { font-size: .98rem; padding: .85rem 1rem; }
+      .result-actions .btn { flex: 1 1 100%; text-align: center; }
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="index.html" aria-label="Strange Tale About Animals home">
+        <img src="assets/profile.webp" alt="Fox logo" />
+        <span>Strange Tale About Animals</span>
+      </a>
+      <a class="back-link" href="index.html">← Back to site</a>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="hero">
+      <div class="kicker">A 10-question personality quiz</div>
+      <h1>Which Animal Are You?</h1>
+      <p>Ten quick choices. No wrong answers. At the end, meet your match from the memorable cast of <em>Hayat al-Hayawan</em> — a 700-year-old book of animal lore.</p>
+    </section>
+
+    <section class="quiz-card" aria-live="polite">
+      <!-- Start screen -->
+      <div class="start-screen" id="start-screen">
+        <div class="start-emoji" aria-hidden="true">🦊🦁🐫</div>
+        <h2 class="quiz-question" style="text-align:center">Ready to meet your animal?</h2>
+        <p>Go with your first instinct on each question. Your result is calculated right here in your browser — nothing is stored or sent anywhere.</p>
+        <button class="btn btn-primary" id="start-btn" type="button">Start the Quiz</button>
+      </div>
+
+      <!-- Question screen -->
+      <div id="question-screen" hidden>
+        <div class="quiz-top">
+          <span class="quiz-step" id="quiz-step">Question 1 of 10</span>
+          <span class="quiz-step" id="quiz-pct">10%</span>
+        </div>
+        <div class="progress-track" aria-hidden="true"><span class="progress-fill" id="progress-fill"></span></div>
+        <h2 class="quiz-question" id="quiz-question"></h2>
+        <div class="quiz-options" id="quiz-options"></div>
+      </div>
+
+      <!-- Result screen -->
+      <div id="result-screen" hidden>
+        <div class="result-hero-img"><img id="result-image" src="" alt="" /></div>
+        <div class="result-emoji" id="result-emoji" aria-hidden="true"></div>
+        <div class="kicker">Your animal match</div>
+        <h2 class="result-name" id="result-name"></h2>
+        <p class="result-desc" id="result-desc"></p>
+        <p class="result-fact"><strong>Weird book fact:</strong> <span id="result-fact"></span></p>
+        <div class="result-actions">
+          <a class="btn btn-primary" id="result-article-link" href="index.html">Read my animal's story →</a>
+          <button class="btn btn-ghost" id="retake-btn" type="button">Retake Quiz</button>
+        </div>
+        <div class="share-row">
+          <span class="share-label">Share your result:</span>
+          <a class="share-btn" id="share-fb" href="#" target="_blank" rel="noopener noreferrer">Facebook</a>
+          <a class="share-btn" id="share-x" href="#" target="_blank" rel="noopener noreferrer">X</a>
+          <a class="share-btn" id="share-wa" href="#" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+          <button class="share-btn" id="copy-result" type="button">Copy</button>
+        </div>
+        <p id="copy-status" role="status" style="color:var(--muted);font-size:.88rem;min-height:1.4em"></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>Part of <a href="index.html">Strange Tale About Animals</a> — old animal lore from <em>Hayat al-Hayawan</em>, retold for today. Medieval claims are presented as historical lore.</p>
+    </div>
+  </footer>
+
+  <script>
+    (function () {
+      "use strict";
+
+      var QUESTIONS = [
+        { q: "It\u2019s Friday night. Where are you?",
+          a: [["At the center of the action", "lion"], ["Following a curious side street", "fox"], ["Home, gloriously undisturbed", "rabbit"], ["Watching everything from a quiet corner", "crow"]] },
+        { q: "Pick a superpower.",
+          a: [["Fearless courage", "lion"], ["Outsmarting any problem", "fox"], ["Endless endurance", "camel"], ["A memory that never fades", "elephant"]] },
+        { q: "Your friends describe you as\u2026",
+          a: [["Loyal and intense", "wolf"], ["Quick and funny", "rabbit"], ["Observant and original", "crow"], ["Calm under pressure", "camel"]] },
+        { q: "A plan goes wrong. What now?",
+          a: [["Take charge and rebuild it", "lion"], ["Find a clever shortcut", "fox"], ["Carry the message farther myself", "hoopoe"], ["Step back and read the room", "crow"]] },
+        { q: "Choose your ideal landscape.",
+          a: [["A wide desert road", "camel"], ["A moonlit forest with the pack", "wolf"], ["A green field full of hiding places", "rabbit"], ["Ancient palace gardens", "elephant"]] },
+        { q: "What matters most in a team?",
+          a: [["Bravery", "lion"], ["Resourcefulness", "fox"], ["Trust", "wolf"], ["Wisdom", "elephant"]] },
+        { q: "Pick a time of day.",
+          a: [["High noon \u2014 bold and bright", "lion"], ["Dusk, when the clever come out", "fox"], ["Dawn, first light on the dunes", "camel"], ["Deep night, sharp eyes open", "crow"]] },
+        { q: "Choose a snack.",
+          a: [["A feast shared with everyone", "lion"], ["Something I cleverly \u201Cfound\u201D", "fox"], ["Whatever\u2019s available \u2014 I\u2019m not picky", "camel"], ["A quiet nibble in my burrow", "rabbit"]] },
+        { q: "How do you solve problems?",
+          a: [["Head-on", "lion"], ["With a trick", "fox"], ["I carry the weight and keep walking", "elephant"], ["I run the message until it\u2019s done", "hoopoe"]] },
+        { q: "Pick the line that fits you best.",
+          a: [["\u201CFortune favors the bold.\u201D", "lion"], ["\u201CThe cleverest path wins.\u201D", "fox"], ["\u201CLoyalty above all.\u201D", "wolf"], ["\u201CThe messenger always gets through.\u201D", "hoopoe"]] }
+      ];
+
+      var ANIMALS = {
+        lion: {
+          name: "Lion", emoji: "\uD83E\uDD81", image: "assets/lion-article.webp",
+          article: "index.html?article=lion",
+          desc: "You lead from the front. People notice your courage first, but your real strength is the steadiness behind it \u2014 the calm that lets everyone else breathe easier.",
+          fact: "The lion entry gathers an astonishing 630 Arabic names \u2014 and says the king of beasts fears the rooster\u2019s crow."
+        },
+        fox: {
+          name: "Fox", emoji: "\uD83E\uDD8A", image: "assets/fox-heist.webp",
+          article: "index.html#animal-articles",
+          desc: "You spot the side door while everyone else stares at the wall. Fast thinking, good timing, and a grin that says you already knew \u2014 that\u2019s your signature.",
+          fact: "One fox in the book stole a camp\u2019s chicken, then came back for the replacement chicken too."
+        },
+        camel: {
+          name: "Camel", emoji: "\uD83D\uDC2A", image: "assets/camel-candidate.jpg",
+          article: "index.html?article=camel",
+          desc: "Patient, practical, and nearly impossible to rattle. You carry more than people realize and keep moving without any drama about it.",
+          fact: "The book calls camels \u201Cdaughters of the night\u201D and \u201Cships of the land\u201D \u2014 and notes the male\u2019s famous red throat-balloon."
+        },
+        elephant: {
+          name: "Elephant", emoji: "\uD83D\uDC18", image: "assets/elephant.jpg",
+          article: "index.html#animal-articles",
+          desc: "You remember everything \u2014 the kindness and the slight. Slow to anger, impossible to push around, and the one everyone wants on their side when it matters.",
+          fact: "The old book calls the elephant the most grudge-holding of beasts \u2014 and tells of one that knelt and refused to march on Makkah."
+        },
+        wolf: {
+          name: "Wolf", emoji: "\uD83D\uDC3A", image: "assets/atlas.jpg",
+          article: "index.html?article=atlas-wolf",
+          desc: "You are selective with trust and fiercely loyal once it\u2019s earned. The long road doesn\u2019t scare you \u2014 you\u2019d rather walk it with your own pack than sprint it alone.",
+          fact: "An \u201Catlas\u201D is not a separate wolf species but a color: dusty gray shading toward black."
+        },
+        rabbit: {
+          name: "Rabbit", emoji: "\uD83D\uDC07", image: "assets/infographic-rabbit.png",
+          article: "index.html?article=arnab",
+          desc: "You move quickly, read a room in seconds, and somehow keep your sense of humor even when things get strange. Small, sharp, and underestimated \u2014 your favorite combination.",
+          fact: "The book says rabbits sleep with their eyes open \u2014 and once took a fox to court before a lizard judge."
+        },
+        hoopoe: {
+          name: "Hoopoe", emoji: "\uD83D\uDC26", image: "assets/hoopoe.jpg",
+          article: "index.html?article=hoopoe",
+          desc: "You are the messenger everyone relies on. Curious, well-traveled, and just exotic enough that people stop and listen when you arrive with news.",
+          fact: "The hoopoe carried news between King Solomon and the Queen of Sheba \u2014 the Quran\u2019s most famous bird courier."
+        },
+        crow: {
+          name: "Crow", emoji: "\uD83D\uDC26\u200D\u2B1B", image: "assets/crow.webp",
+          article: "index.html#animal-articles",
+          desc: "Observant, independent, and drawn to whatever everyone else overlooked. You notice the detail that changes the whole story \u2014 and you\u2019re not shy about saying so.",
+          fact: "Sent from Noah\u2019s Ark to find land, the crow stopped for a feast on the way \u2014 and never came back."
+        }
+      };
+
+      var ORDER = ["lion", "fox", "camel", "elephant", "wolf", "rabbit", "hoopoe", "crow"];
+
+      var startScreen = document.getElementById("start-screen");
+      var questionScreen = document.getElementById("question-screen");
+      var resultScreen = document.getElementById("result-screen");
+      var quizStep = document.getElementById("quiz-step");
+      var quizPct = document.getElementById("quiz-pct");
+      var progressFill = document.getElementById("progress-fill");
+      var quizQuestion = document.getElementById("quiz-question");
+      var quizOptions = document.getElementById("quiz-options");
+      var copyStatus = document.getElementById("copy-status");
+
+      var index = 0;
+      var scores = {};
+      var resultKey = null;
+
+      function resetScores() {
+        scores = {};
+        ORDER.forEach(function (k) { scores[k] = 0; });
+      }
+
+      function renderQuestion() {
+        var item = QUESTIONS[index];
+        quizStep.textContent = "Question " + (index + 1) + " of " + QUESTIONS.length;
+        var pct = Math.round(((index + 1) / QUESTIONS.length) * 100);
+        quizPct.textContent = pct + "%";
+        progressFill.style.width = pct + "%";
+        quizQuestion.textContent = item.q;
+        quizOptions.innerHTML = "";
+        item.a.forEach(function (opt) {
+          var btn = document.createElement("button");
+          btn.type = "button";
+          btn.className = "quiz-option";
+          btn.textContent = opt[0];
+          btn.addEventListener("click", function () {
+            scores[opt[1]] += 1;
+            index += 1;
+            if (index < QUESTIONS.length) {
+              renderQuestion();
+            } else {
+              showResult();
+            }
+          });
+          quizOptions.appendChild(btn);
+        });
+        // keep the card top in view on small screens
+        var card = questionScreen.closest(".quiz-card");
+        if (card && index > 0) card.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+
+      function showResult() {
+        resultKey = ORDER.reduce(function (best, key) {
+          return scores[key] > scores[best] ? key : best;
+        }, "lion");
+        var r = ANIMALS[resultKey];
+        questionScreen.hidden = true;
+        resultScreen.hidden = false;
+        document.getElementById("result-image").src = r.image;
+        document.getElementById("result-image").alt = r.name;
+        document.getElementById("result-emoji").textContent = r.emoji;
+        document.getElementById("result-name").textContent = "You\u2019re the " + r.name + "!";
+        document.getElementById("result-desc").textContent = r.desc;
+        document.getElementById("result-fact").textContent = r.fact;
+        document.getElementById("result-article-link").href = r.article;
+
+        var pageUrl = "https://sadiqcrazy11-ctrl.github.io/quiz.html";
+        var shareText = "I\u2019m the " + r.name + " " + r.emoji + "! Which animal are you? Take the quiz:";
+        document.getElementById("share-fb").href =
+          "https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent(pageUrl) + "&quote=" + encodeURIComponent(shareText);
+        document.getElementById("share-x").href =
+          "https://twitter.com/intent/tweet?text=" + encodeURIComponent(shareText) + "&url=" + encodeURIComponent(pageUrl);
+        document.getElementById("share-wa").href =
+          "https://wa.me/?text=" + encodeURIComponent(shareText + " " + pageUrl);
+        document.getElementById("copy-result").onclick = function () {
+          var text = shareText + " " + pageUrl;
+          function done(ok) {
+            copyStatus.textContent = ok ? "Copied! Paste it anywhere." : "Copy failed \u2014 long-press to copy manually.";
+          }
+          if (navigator.clipboard && navigator.clipboard.writeText) {
+            navigator.clipboard.writeText(text).then(function () { done(true); }, function () { done(false); });
+          } else {
+            var ta = document.createElement("textarea");
+            ta.value = text; document.body.appendChild(ta); ta.select();
+            try { done(document.execCommand("copy")); } catch (e) { done(false); }
+            document.body.removeChild(ta);
+          }
+        };
+        resultScreen.closest(".quiz-card").scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+
+      document.getElementById("start-btn").addEventListener("click", function () {
+        resetScores();
+        index = 0;
+        startScreen.hidden = true;
+        resultScreen.hidden = true;
+        questionScreen.hidden = false;
+        copyStatus.textContent = "";
+        renderQuestion();
+      });
+
+      document.getElementById("retake-btn").addEventListener("click", function () {
+        resetScores();
+        index = 0;
+        resultScreen.hidden = true;
+        questionScreen.hidden = false;
+        copyStatus.textContent = "";
+        renderQuestion();
+      });
+
+      // expose for testing
+      window.__quiz = { QUESTIONS: QUESTIONS, ANIMALS: ANIMALS, ORDER: ORDER };
+    })();
+  </script>
+</body>
+</html>
