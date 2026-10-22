@@ -1,0 +1,25 @@
+# Strange Tale About Animals
+
+> Animal stories and animal facts inspired by Hayat al-Hayawan al-Kubra, the centuries-old Arabic book of animals by al-Damiri — retold in English.
+
+Run by: Sadiq Khan (author and site owner). Companion YouTube channel: "Strange Tale About Animals" (@strangetaleaboutanimals).
+
+## Main sections
+
+- Home: https://sadiqcrazy11-ctrl.github.io/
+- Animal of the Day: https://sadiqcrazy11-ctrl.github.io/#animal-of-day
+- Animal Stories: https://sadiqcrazy11-ctrl.github.io/#stories
+- Animal Facts (articles): https://sadiqcrazy11-ctrl.github.io/#animal-articles
+- Animal Symbolism: https://sadiqcrazy11-ctrl.github.io/#animal-symbolism
+- Collections: https://sadiqcrazy11-ctrl.github.io/#collections
+- Infographics: https://sadiqcrazy11-ctrl.github.io/#infographics
+- Videos: https://sadiqcrazy11-ctrl.github.io/#videos
+- About the Book: https://sadiqcrazy11-ctrl.github.io/#about-book
+- Fun Tools: https://sadiqcrazy11-ctrl.github.io/#fun-tools
+- Quiz: https://sadiqcrazy11-ctrl.github.io/quiz.html
+- About the Author: https://sadiqcrazy11-ctrl.github.io/#about-author
+- Contact: https://sadiqcrazy11-ctrl.github.io/#contact
+
+## Articles
+
+Every animal article opens inside the app at https://sadiqcrazy11-ctrl.github.io/?article=<slug> (examples: ?article=lion, ?article=camel, ?article=ababil). The full list of article URLs is in the sitemap: https://sadiqcrazy11-ctrl.github.io/sitemap.xml
