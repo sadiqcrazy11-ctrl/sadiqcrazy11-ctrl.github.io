@@ -1,0 +1,101 @@
+# Strange Tale About Animals
+
+> Animal stories and animal facts inspired by Hayat al-Hayawan al-Kubra, the centuries-old Arabic book of animals by al-Damiri — retold in English.
+
+Run by: Sadiq Khan (author and site owner). Companion YouTube channel: "Strange Tale About Animals" (@strangetaleaboutanimals).
+
+## Main sections
+
+- Home: https://sadiqcrazy11-ctrl.github.io/
+- Animal of the Day: https://sadiqcrazy11-ctrl.github.io/#animal-of-day
+- Animal Stories: https://sadiqcrazy11-ctrl.github.io/#stories
+- Animal Facts (articles): https://sadiqcrazy11-ctrl.github.io/#animal-articles
+- Animal Symbolism: https://sadiqcrazy11-ctrl.github.io/#animal-symbolism
+- Collections: https://sadiqcrazy11-ctrl.github.io/#collections
+- Infographics: https://sadiqcrazy11-ctrl.github.io/#infographics
+- Videos: https://sadiqcrazy11-ctrl.github.io/#videos
+- About the Book: https://sadiqcrazy11-ctrl.github.io/#about-book
+- Fun Tools: https://sadiqcrazy11-ctrl.github.io/#fun-tools
+- Quiz: https://sadiqcrazy11-ctrl.github.io/quiz.html
+- About the Author: https://sadiqcrazy11-ctrl.github.io/#about-author
+- Contact: https://sadiqcrazy11-ctrl.github.io/#contact
+
+## Articles
+
+Every animal article is its own page. The full list of article URLs is in the sitemap: https://sadiqcrazy11-ctrl.github.io/sitemap.xml
+
+- The Crow’s One Job—and the Feast That Ruined It 🐦‍⬛: https://sadiqcrazy11-ctrl.github.io/assets/pages/crow-story.html
+- The Fox Came Back for Seconds: https://sadiqcrazy11-ctrl.github.io/assets/pages/fox-story.html
+- A Wolf Starts This 700-Year-Old Chain. A Fly Ends It.: https://sadiqcrazy11-ctrl.github.io/assets/pages/chain-story.html
+- The Sneeze That Put a Cat on Noah’s Ark: https://sadiqcrazy11-ctrl.github.io/assets/pages/lion-story.html
+- Lion Facts: 630 Names, a Sneeze and the First Cat: https://sadiqcrazy11-ctrl.github.io/assets/pages/lion.html
+- Camel Facts: The Red Balloon and 10 Days Without Water: https://sadiqcrazy11-ctrl.github.io/assets/pages/camel.html
+- Ababil Birds: The Quran's Mystery Flock Explained: https://sadiqcrazy11-ctrl.github.io/assets/pages/ababil.html
+- Donkey Facts: The She-Donkey That Cures Pride: https://sadiqcrazy11-ctrl.github.io/assets/pages/atan.html
+- Shrike Bird Facts: The Bird That's Also a Donkey: https://sadiqcrazy11-ctrl.github.io/assets/pages/akhtab.html
+- Green Fly Facts: The Shortest Entry in a 700-Year-Old Book: https://sadiqcrazy11-ctrl.github.io/assets/pages/akhaydar.html
+- Bird Omens: The Speckled Green Bird of Ill Omen: https://sadiqcrazy11-ctrl.github.io/assets/pages/akhayl.html
+- Venomous Snake Facts: The Bite That Changes Your Face: https://sadiqcrazy11-ctrl.github.io/assets/pages/arbad.html
+- Wild Cow: The Animal That Split Three Dictionaries: https://sadiqcrazy11-ctrl.github.io/assets/pages/arkh.html
+- Termite Facts: The Insect That Toppled a Boycott: https://sadiqcrazy11-ctrl.github.io/assets/pages/ardah.html
+- Spotted Snake: The One You Can't Kill or Keep: https://sadiqcrazy11-ctrl.github.io/assets/pages/arqam.html
+- Rabbit Facts: Evil Spirits, Open-Eyed Sleep and a Trial: https://sadiqcrazy11-ctrl.github.io/assets/pages/arnab.html
+- Ibex Facts: The Mountain Goat That Nursed a Prophet: https://sadiqcrazy11-ctrl.github.io/assets/pages/arwiya.html
+- Caterpillar to Butterfly: The Red Worm's Strange Tale: https://sadiqcrazy11-ctrl.github.io/assets/pages/asari.html
+- Falcon Facts: The Bird That Named a Color: https://sadiqcrazy11-ctrl.github.io/assets/pages/asfa.html
+- Black Snake: The Serpent Found in Three Graves: https://sadiqcrazy11-ctrl.github.io/assets/pages/aswad-salikh.html
+- Wolf Facts: The Wolf, the Crow and Paradise's Stranger: https://sadiqcrazy11-ctrl.github.io/assets/pages/asraman.html
+- Most Dangerous Snake? The One-Legged Killer Snake: https://sadiqcrazy11-ctrl.github.io/assets/pages/aslah.html
+- The Dusty-Black Wolf That Proved a Grammar Point: https://sadiqcrazy11-ctrl.github.io/assets/pages/atlas-wolf.html
+- The Fish That Was Also a Cow (and a Turtle, and a Hedgehog): https://sadiqcrazy11-ctrl.github.io/assets/pages/utum-animal.html
+- The Flighty Bird (Ataysh, الأطيش): The One-Line Entry That Became a Biography: https://sadiqcrazy11-ctrl.github.io/assets/pages/ataysh.html
+- Al-Aghthar: The Water Bird Described in a Single Sentence: https://sadiqcrazy11-ctrl.github.io/assets/pages/aghthar.html
+- Al-Afal: The Young Camels of Hayat al-Hayawan | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/afal.html
+- Goose Facts: Solomon, the Thief's Feather & Ali's Warning | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/goose-facts.html
+- Al-Ilfah: The One-Line Entry That Named a She-Ghoul | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/ilfah.html
+- Al-Ilq: The Wolf's Three Names and the Monkey Rule | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/ilq.html
+- Al-Awda the Jerboa: A One-Line Entry and a Promise | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/awda-jerboa.html
+- Al-Awraq: The Gray Camel Nobody Wanted to Ride | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/awraq-gray-camel.html
+- Al-Aws: The Wolf With a Human Name | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/al-aws.html
+- Al-Ilas: The Uncatchable Fish of Reconciliation | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/al-ilas.html
+- The Serpent That Performed Hajj: Al-Aym's Seven Circles | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/al-aym.html
+- Al-Ayl: The Snake-Eating Stag of Hayat al-Hayawan | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/al-ayl.html
+- Ibn Awa: The Jackal Chickens Fear More Than the Fox | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/ibn-awa-jackal.html
+- Al-Babus: The Tiniest Entry in Hayat al-Hayawan | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/al-babus.html
+- Al-Bazi: The Falcon That Returned From the Sky With a Fish | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/al-bazi.html
+- Bazil: The 8-Year-Old Camel Behind a Famous Teaching on Honesty | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/al-bazil.html
+- Baqi'a: The 700-Year-Old Arabic Word for a Man Too Clever to Trust | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/baqia.html
+- Balam: The Mystery Word Behind Paradise's Feast of Bull and Whale | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/balam.html
+- The Tiger Born of the Wind: Al-Babr, the Uncatchable Camphor-Tree Guard | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/al-babr.html
+- The Parrot That Spies for Kings: Medieval Tales of Talking Parrots | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/al-babgha.html
+- Al-Bajj: The One-Line Water Bird of Hayat al-Hayawan | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/al-bajj.html
+- Al-Baja' the Pelican: The Belly-Beak Riddle and the Confession Pouch | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/al-baja.html
+- Bakhzaj: The Five-Word Entry About the Wild Cow's Calf | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/bakhzaj.html
+- Bajaq: The Forgotten Arabic Name for the Male Wolf | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/bajaq.html
+- Al-Bakht: The Two-Humped Bactrian Camel of Hayat al-Hayawan | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/al-bakht.html
+- Al-Badana: The Sacred Sacrificial Camel of Hayat al-Hayawan | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/al-badana.html
+- Al-Badhj: The Lamb of Humility in Hayat al-Hayawan | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/al-badhj.html
+- Al-Buraq: The Heavenly Steed of the Night Journey | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/al-buraq.html
+- Barghan: The One-Line Entry With Two Pronunciations | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/barghan.html
+- Al-Barghuth: The Flea That Woke a Prophet for Fajr | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/barghuth.html
+- Al-Bara: The Bird Entry Promised in the Sin Chapter | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/al-bara.html
+- The Hoopoe Bird: Solomon's Messenger That Sees Water Underground: https://sadiqcrazy11-ctrl.github.io/assets/pages/hoopoe.html
+- The Elephant That Refused to Destroy Makkah — Abraha's Elephant Mahmud: https://sadiqcrazy11-ctrl.github.io/assets/pages/elephant.html
+- The Ant That Spoke to Solomon — An Entire Quran Chapter Named After It: https://sadiqcrazy11-ctrl.github.io/assets/pages/ant.html
+- The Spider's Web at the Cave of Thawr — And the Weakest House in the World: https://sadiqcrazy11-ctrl.github.io/assets/pages/spider.html
+- Locust Al-Barqana: The Colored Locust in Hayat al-Hayawan | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/al-barqana.html
+- Al-Barqash Bird (البرقش): Sparrow-Like Bird and the Arabic Proverb of Barāqish | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/al-barqash.html
+- Al-Barkah Water Bird (البركة): Evening Bird of Zuhayr's Verse | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/al-barkah.html
+- The Human Al-Bashar (البشر): The Shortest Entry in Hayat al-Hayawan | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/al-bashar.html
+- Duck Al-Batt (البط): Strange Medieval Facts From Hayat al-Hayawan | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/al-batt.html
+- Fish (البطس) Al-Butas: the Fish That Wrote in the Dark | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/al-butas.html
+- Mosquito (البعوض) Al-Ba'ud: the Tiny Killer That Brought Down a King | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/al-baud.html
+- Camel (البعير) Al-Ba'ir: Named After Its Dung, and the Camels That Spoke | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/al-bair.html
+- The Shabby Bird (البغاث) Al-Baghath: The Slow Bird Arabs Called the Worst of Birds | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/al-baghath.html
+- The Mule (البغل) Al-Baghl: The Sterile Hybrid Kings Rode, and the Miracle Birth in Nablus | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/al-baghl.html
+- Fat Gazelle Buck (al-Baghibigh): The One-Line Entry That Promises More | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/al-baghibigh.html
+- Red Cardinal Symbolism: What It Means When You See a Red Cardinal: https://sadiqcrazy11-ctrl.github.io/assets/pages/red-cardinal-symbolism.html
+- Butterfly Symbolism: What It Means When a Butterfly Lands on You: https://sadiqcrazy11-ctrl.github.io/assets/pages/butterfly-symbolism.html
+- Owl Symbolism: What It Means When You See an Owl at Night: https://sadiqcrazy11-ctrl.github.io/assets/pages/owl-symbolism.html
+- Crow Symbolism: What It Means When You See a Crow or Raven: https://sadiqcrazy11-ctrl.github.io/assets/pages/crow-symbolism.html
+- Snake Symbolism: What It Means When You See a Snake: https://sadiqcrazy11-ctrl.github.io/assets/pages/snake-symbolism.html
