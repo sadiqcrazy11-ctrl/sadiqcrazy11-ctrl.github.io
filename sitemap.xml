@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <!-- Regenerated 2026-10-26: every article is its own static page under /assets/pages/ (75 articles). -->
-  <url><loc>https://sadiqcrazy11-ctrl.github.io/</loc><lastmod>2026-10-26</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <!-- Regenerated 2026-10-28: every article is its own static page under /assets/pages/ (76 articles), plus the Animal Encyclopedia (A-Z), the complete Stories & Articles archive, and educator / pet-care resource pages. -->
+  <url><loc>https://sadiqcrazy11-ctrl.github.io/</loc><lastmod>2026-10-27</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
   <url><loc>https://sadiqcrazy11-ctrl.github.io/#animal-of-day</loc><lastmod>2026-10-26</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://sadiqcrazy11-ctrl.github.io/#stories</loc><lastmod>2026-10-26</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://sadiqcrazy11-ctrl.github.io/#animal-articles</loc><lastmod>2026-10-26</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sadiqcrazy11-ctrl.github.io/assets/pages/az-index.html</loc><lastmod>2026-10-28</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://sadiqcrazy11-ctrl.github.io/assets/pages/all-articles.html</loc><lastmod>2026-10-28</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://sadiqcrazy11-ctrl.github.io/assets/pages/for-educators.html</loc><lastmod>2026-10-28</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://sadiqcrazy11-ctrl.github.io/assets/pages/pet-care-guides.html</loc><lastmod>2026-10-28</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://sadiqcrazy11-ctrl.github.io/#animal-symbolism</loc><lastmod>2026-10-26</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://sadiqcrazy11-ctrl.github.io/#collections</loc><lastmod>2026-10-26</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://sadiqcrazy11-ctrl.github.io/#infographics</loc><lastmod>2026-10-26</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
@@ -83,6 +87,7 @@
   <url><loc>https://sadiqcrazy11-ctrl.github.io/assets/pages/al-baghath.html</loc><lastmod>2026-10-24</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://sadiqcrazy11-ctrl.github.io/assets/pages/al-baghl.html</loc><lastmod>2026-10-25</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://sadiqcrazy11-ctrl.github.io/assets/pages/al-baghibigh.html</loc><lastmod>2026-10-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://sadiqcrazy11-ctrl.github.io/assets/pages/al-baqar-al-ahli.html</loc><lastmod>2026-10-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://sadiqcrazy11-ctrl.github.io/assets/pages/red-cardinal-symbolism.html</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://sadiqcrazy11-ctrl.github.io/assets/pages/butterfly-symbolism.html</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://sadiqcrazy11-ctrl.github.io/assets/pages/owl-symbolism.html</loc><lastmod>2026-10-20</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
