@@ -9,7 +9,11 @@ Run by: Sadiq Khan (author and site owner). Companion YouTube channel: "Strange 
 - Home: https://sadiqcrazy11-ctrl.github.io/
 - Animal of the Day: https://sadiqcrazy11-ctrl.github.io/#animal-of-day
 - Animal Stories: https://sadiqcrazy11-ctrl.github.io/#stories
-- Animal Facts (articles): https://sadiqcrazy11-ctrl.github.io/#animal-articles
+- Animal Encyclopedia (A-Z index): https://sadiqcrazy11-ctrl.github.io/assets/pages/az-index.html
+- Stories & Articles (complete archive): https://sadiqcrazy11-ctrl.github.io/assets/pages/all-articles.html
+- For Educators: https://sadiqcrazy11-ctrl.github.io/assets/pages/for-educators.html
+- Pet Care Guides: https://sadiqcrazy11-ctrl.github.io/assets/pages/pet-care-guides.html
+- Animal Encyclopedia (home page section): https://sadiqcrazy11-ctrl.github.io/#animal-articles
 - Animal Symbolism: https://sadiqcrazy11-ctrl.github.io/#animal-symbolism
 - Collections: https://sadiqcrazy11-ctrl.github.io/#collections
 - Infographics: https://sadiqcrazy11-ctrl.github.io/#infographics
@@ -94,6 +98,7 @@ Every animal article is its own page. The full list of article URLs is in the si
 - The Shabby Bird (البغاث) Al-Baghath: The Slow Bird Arabs Called the Worst of Birds | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/al-baghath.html
 - The Mule (البغل) Al-Baghl: The Sterile Hybrid Kings Rode, and the Miracle Birth in Nablus | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/al-baghl.html
 - Fat Gazelle Buck (al-Baghibigh): The One-Line Entry That Promises More | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/al-baghibigh.html
+- Domestic Cattle (al-Baqar al-Ahli): Talking Cows, a Greedy King, and Fire on Their Tails | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/al-baqar-al-ahli.html
 - Red Cardinal Symbolism: What It Means When You See a Red Cardinal: https://sadiqcrazy11-ctrl.github.io/assets/pages/red-cardinal-symbolism.html
 - Butterfly Symbolism: What It Means When a Butterfly Lands on You: https://sadiqcrazy11-ctrl.github.io/assets/pages/butterfly-symbolism.html
 - Owl Symbolism: What It Means When You See an Owl at Night: https://sadiqcrazy11-ctrl.github.io/assets/pages/owl-symbolism.html
