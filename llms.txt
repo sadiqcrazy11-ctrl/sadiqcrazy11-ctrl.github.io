@@ -62,7 +62,7 @@ Every animal article is its own page. The full list of article URLs is in the si
 - Al-Awraq: The Gray Camel Nobody Wanted to Ride | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/awraq-gray-camel.html
 - Al-Aws: The Wolf With a Human Name | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/al-aws.html
 - Al-Ilas: The Uncatchable Fish of Reconciliation | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/al-ilas.html
-- The Serpent That Performed Hajj: Al-Aym's Seven Circles | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/al-aym.html
+- Snake That Performed Hajj: Al-Aym's Seven Circles Around the Ka'ba | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/al-aym.html
 - Al-Ayl: The Snake-Eating Stag of Hayat al-Hayawan | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/al-ayl.html
 - Ibn Awa: The Jackal Chickens Fear More Than the Fox | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/ibn-awa-jackal.html
 - Al-Babus: The Tiniest Entry in Hayat al-Hayawan | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/al-babus.html
