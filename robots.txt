@@ -41,3 +41,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://sadiqcrazy11-ctrl.github.io/sitemap.xml
+Sitemap: https://sadiqcrazy11-ctrl.github.io/quick-earn-guide/sitemap.xml

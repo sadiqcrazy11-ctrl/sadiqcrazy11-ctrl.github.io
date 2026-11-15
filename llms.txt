@@ -59,11 +59,11 @@ Every animal article is its own page. The full list of article URLs is in the si
 - Al-Ilfah: The One-Line Entry That Named a She-Ghoul | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/ilfah.html
 - Al-Ilq: The Wolf's Three Names and the Monkey Rule | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/ilq.html
 - Al-Awda the Jerboa: A One-Line Entry and a Promise | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/awda-jerboa.html
-- Al-Awraq: The Gray Camel Nobody Wanted to Ride | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/awraq-gray-camel.html
+- Gray Camel (Al-Awraq): The Gray Camel Nobody Wanted to Ride | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/awraq-gray-camel.html
 - Al-Aws: The Wolf With a Human Name | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/al-aws.html
 - Al-Ilas: The Uncatchable Fish of Reconciliation | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/al-ilas.html
 - Snake That Performed Hajj: Al-Aym's Seven Circles Around the Ka'ba | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/al-aym.html
-- Al-Ayl: The Snake-Eating Stag of Hayat al-Hayawan | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/al-ayl.html
+- Male Ibex Facts: The Snake-Hunting Stag (Al-Ayl) & Bezoar Tears | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/al-ayl.html
 - Ibn Awa: The Jackal Chickens Fear More Than the Fox | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/ibn-awa-jackal.html
 - Al-Babus: The Tiniest Entry in Hayat al-Hayawan | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/al-babus.html
 - Al-Bazi: The Falcon That Returned From the Sky With a Fish | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/al-bazi.html
@@ -99,8 +99,15 @@ Every animal article is its own page. The full list of article URLs is in the si
 - The Mule (البغل) Al-Baghl: The Sterile Hybrid Kings Rode, and the Miracle Birth in Nablus | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/al-baghl.html
 - Fat Gazelle Buck (al-Baghibigh): The One-Line Entry That Promises More | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/al-baghibigh.html
 - Domestic Cattle (al-Baqar al-Ahli): Talking Cows, a Greedy King, and Fire on Their Tails | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/al-baqar-al-ahli.html
+- Wild Cattle (al-Baqar al-Wahshi): The Moonlit Oryx Herd That Delivered a King | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/al-baqar-al-wahshi.html
 - Red Cardinal Symbolism: What It Means When You See a Red Cardinal: https://sadiqcrazy11-ctrl.github.io/assets/pages/red-cardinal-symbolism.html
 - Butterfly Symbolism: What It Means When a Butterfly Lands on You: https://sadiqcrazy11-ctrl.github.io/assets/pages/butterfly-symbolism.html
 - Owl Symbolism: What It Means When You See an Owl at Night: https://sadiqcrazy11-ctrl.github.io/assets/pages/owl-symbolism.html
 - Crow Symbolism: What It Means When You See a Crow or Raven: https://sadiqcrazy11-ctrl.github.io/assets/pages/crow-symbolism.html
 - Snake Symbolism: What It Means When You See a Snake: https://sadiqcrazy11-ctrl.github.io/assets/pages/snake-symbolism.html
+- Bustard Chick (al-Yahbur): The One-Line Entry That Points Backwards | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/al-yahbur.html
+- Al-Yahmur: The Saw-Horned Beast That Sawed Trees | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/al-yahmur.html
+- Al-Yahmum: The Beautifully Coloured Bird of the Hijaz | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/al-yahmum.html
+- Al-Yara'ah: The Little Night-Flying Bird | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/al-yaraah.html
+- The Jerboa (Al-Yarbu'): The Animal Behind the Word Hypocrite | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/al-yarbu.html
+- Al-Yarqan: The Crop Worm That Becomes a Moth | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/al-yarqan.html
