@@ -77,7 +77,7 @@ Every animal article is its own page. The full list of article URLs is in the si
 - Bakhzaj: The Five-Word Entry About the Wild Cow's Calf | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/bakhzaj.html
 - Bajaq: The Forgotten Arabic Name for the Male Wolf | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/bajaq.html
 - Al-Bakht: The Two-Humped Bactrian Camel of Hayat al-Hayawan | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/al-bakht.html
-- Al-Badana: The Sacred Sacrificial Camel of Hayat al-Hayawan | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/al-badana.html
+- Sacrificial Camel (Al-Badana, البدنة): The Hajj Camel You May Ride | Strange Tale About Animals — A sacrificial camel — al-badana — is a camel fattened for hajj. One cost a pilgrim seven dinars, the Prophet told a man to ride it, and one served seven people.: https://sadiqcrazy11-ctrl.github.io/assets/pages/al-badana.html
 - Al-Badhj: The Lamb of Humility in Hayat al-Hayawan | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/al-badhj.html
 - Al-Buraq: The Heavenly Steed of the Night Journey | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/al-buraq.html
 - Barghan: The One-Line Entry With Two Pronunciations | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/barghan.html
@@ -111,3 +111,7 @@ Every animal article is its own page. The full list of article URLs is in the si
 - Al-Yara'ah: The Little Night-Flying Bird | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/al-yaraah.html
 - The Jerboa (Al-Yarbu'): The Animal Behind the Word Hypocrite | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/al-yarbu.html
 - Al-Yarqan: The Crop Worm That Becomes a Moth | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/al-yarqan.html
+- Al-Yasf: The Fly's One-Line Entry in Hayat al-Hayawan | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/al-yasf.html
+- Al-Ya'r: The Kid Goat Tied at the Lion's Pit in Hayat al-Hayawan | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/al-yar.html
+- Fawn (Al-Ya'fur): The Dust-Coloured Fawn of Hayat al-Hayawan | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/al-yafur.html
+- Male Partridge (Al-Ya'qub): The Bird So Fast Poets Used It to Measure Lost Youth | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/al-yaqub.html
