@@ -7,20 +7,16 @@ Run by: Sadiq Khan (author and site owner). Companion YouTube channel: "Strange 
 ## Main sections
 
 - Home: https://sadiqcrazy11-ctrl.github.io/
-- Animal of the Day: https://sadiqcrazy11-ctrl.github.io/#animal-of-day
-- Animal Stories: https://sadiqcrazy11-ctrl.github.io/#stories
 - Animal Encyclopedia (A-Z index): https://sadiqcrazy11-ctrl.github.io/assets/pages/az-index.html
 - Stories & Articles (complete archive): https://sadiqcrazy11-ctrl.github.io/assets/pages/all-articles.html
 - For Educators: https://sadiqcrazy11-ctrl.github.io/assets/pages/for-educators.html
 - Pet Care Guides: https://sadiqcrazy11-ctrl.github.io/assets/pages/pet-care-guides.html
-- Animal Encyclopedia (home page section): https://sadiqcrazy11-ctrl.github.io/#animal-articles
 - Animal Symbolism: https://sadiqcrazy11-ctrl.github.io/#animal-symbolism
 - Collections: https://sadiqcrazy11-ctrl.github.io/#collections
 - Infographics: https://sadiqcrazy11-ctrl.github.io/#infographics
 - Videos: https://sadiqcrazy11-ctrl.github.io/#videos
 - About the Book: https://sadiqcrazy11-ctrl.github.io/#about-book
 - Fun Tools: https://sadiqcrazy11-ctrl.github.io/#fun-tools
-- Quiz: https://sadiqcrazy11-ctrl.github.io/quiz.html
 - About the Author: https://sadiqcrazy11-ctrl.github.io/#about-author
 - Contact: https://sadiqcrazy11-ctrl.github.io/#contact
 
@@ -70,7 +66,7 @@ Every animal article is its own page. The full list of article URLs is in the si
 - Bazil: The 8-Year-Old Camel Behind a Famous Teaching on Honesty | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/al-bazil.html
 - Baqi'a: The 700-Year-Old Arabic Word for a Man Too Clever to Trust | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/baqia.html
 - Balam: The Mystery Word Behind Paradise's Feast of Bull and Whale | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/balam.html
-- The Tiger Born of the Wind: Al-Babr, the Uncatchable Camphor-Tree Guard | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/al-babr.html
+- Tiger: How Fast Can a Tiger Run? Al-Babr, the Wind-Born Tiger | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/al-babr.html
 - The Parrot That Spies for Kings: Medieval Tales of Talking Parrots | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/al-babgha.html
 - Al-Bajj: The One-Line Water Bird of Hayat al-Hayawan | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/al-bajj.html
 - Al-Baja' the Pelican: The Belly-Beak Riddle and the Confession Pouch | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/al-baja.html
@@ -115,3 +111,5 @@ Every animal article is its own page. The full list of article URLs is in the si
 - Al-Ya'r: The Kid Goat Tied at the Lion's Pit in Hayat al-Hayawan | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/al-yar.html
 - Fawn (Al-Ya'fur): The Dust-Coloured Fawn of Hayat al-Hayawan | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/al-yafur.html
 - Male Partridge (Al-Ya'qub): The Bird So Fast Poets Used It to Measure Lost Youth | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/al-yaqub.html
+- Working She-Camel (Al-Ya'malah): The Lean Camel That Carried the Night March | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/al-yamalah.html
+- Surad Bird Facts: The Shrike That Hunts With Song | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/surad.html
