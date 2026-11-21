@@ -117,4 +117,5 @@ Every animal article is its own page. The full list of article URLs is in the si
 - Al-Yarqan: The Crop Worm That Becomes a Moth | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/al-yarqan.html
 - Al-Yasf: The Fly's One-Line Entry in Hayat al-Hayawan | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/al-yasf.html
 - Working She-Camel (Al-Ya'malah): The Lean Camel That Carried the Night March | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/al-yamalah.html
+- Wild Dove (Al-Yamam): Zarqa al-Yamama, the Seeress Who Saw Three Days Away | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/al-yamam.html
 - Surad Bird Facts: The Shrike That Hunts With Song | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/surad.html
