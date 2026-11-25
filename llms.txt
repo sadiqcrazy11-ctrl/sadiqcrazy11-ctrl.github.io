@@ -51,7 +51,7 @@ Every animal article is its own page. The full list of article URLs is in the si
 - The Flighty Bird (Ataysh, الأطيش): The One-Line Entry That Became a Biography: https://sadiqcrazy11-ctrl.github.io/assets/pages/ataysh.html
 - Al-Aghthar: The Water Bird Described in a Single Sentence: https://sadiqcrazy11-ctrl.github.io/assets/pages/aghthar.html
 - Al-Afal: The Young Camels of Hayat al-Hayawan | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/afal.html
-- Goose Facts: Solomon, the Thief's Feather & Ali's Warning | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/goose-facts.html
+- Goose Facts: Solomon's Feather Thief & the Gosling That Swims at Birth | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/goose-facts.html
 - Al-Ilfah: The One-Line Entry That Named a She-Ghoul | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/ilfah.html
 - Al-Ilq: The Wolf's Three Names and the Monkey Rule | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/ilq.html
 - Al-Awda the Jerboa: A One-Line Entry and a Promise | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/awda-jerboa.html
@@ -69,7 +69,7 @@ Every animal article is its own page. The full list of article URLs is in the si
 - Tiger: How Fast Can a Tiger Run? Al-Babr, the Wind-Born Tiger | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/al-babr.html
 - The Parrot That Spies for Kings: Medieval Tales of Talking Parrots | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/al-babgha.html
 - Al-Bajj: The One-Line Water Bird of Hayat al-Hayawan | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/al-bajj.html
-- Al-Baja' the Pelican: The Belly-Beak Riddle and the Confession Pouch | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/al-baja.html
+- Pelican Facts: Al-Baja', the Riddle & the Confession Pouch | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/al-baja.html
 - Bakhzaj: The Five-Word Entry About the Wild Cow's Calf | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/bakhzaj.html
 - Bajaq: The Forgotten Arabic Name for the Male Wolf | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/bajaq.html
 - Al-Bakht: The Two-Humped Bactrian Camel of Hayat al-Hayawan | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/al-bakht.html
@@ -113,4 +113,7 @@ Every animal article is its own page. The full list of article URLs is in the si
 - Male Partridge (Al-Ya'qub): The Bird So Fast Poets Used It to Measure Lost Youth | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/al-yaqub.html
 - Working She-Camel (Al-Ya'malah): The Lean Camel That Carried the Night March | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/al-yamalah.html
 - Wild Dove (Al-Yamam): Zarqa al-Yamama, the Seeress Who Saw Three Days Away | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/al-yamam.html
+- Al-Yahudi: The Jew-Fish's One-Line Entry in Hayat al-Hayawan | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/al-yahudi.html
 - Surad Bird Facts: The Shrike That Hunts With Song | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/surad.html
+- Al-Yusi: The Hurr Bird of Iraq, Longer of Wing Than the Sparrowhawk | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/al-yusi.html
+- The Bee King (Al-Ya'sub): The Last Animal in Hayat al-Hayawan | Strange Tale About Animals: https://sadiqcrazy11-ctrl.github.io/assets/pages/al-yasub.html
